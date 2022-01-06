@@ -18,17 +18,17 @@ class _RoootState extends State<Rooot> {
         children: [
           ElevatedButton(
             onPressed: () => Navigator.pushNamed(context, '/red'),
-            child: Text('Red/Красный'),
+            child: Text('Red/\nКрасный'),
             style: ElevatedButton.styleFrom(primary: Colors.red),
           ),
           ElevatedButton(
             onPressed: () => Navigator.pushNamed(context, '/yellow'),
-            child: Text('Yellow/Желтый'),
+            child: Text('Yellow/\nЖелтый'),
             style: ElevatedButton.styleFrom(primary: Colors.yellow),
           ),
           ElevatedButton(
             onPressed: () => Navigator.pushNamed(context, '/green'),
-            child: Text('Green/Зеленый'),
+            child: Text('Green/\nЗеленый'),
             style: ElevatedButton.styleFrom(primary: Colors.green),
           )
         ],
